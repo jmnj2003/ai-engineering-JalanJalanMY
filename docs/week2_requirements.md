@@ -2,7 +2,6 @@
 
 Version: 1.0
 Project: JalanJalanMY — Grounded Itinerary Planner for Malaysia
-Builds on: `docs/week1_project_scope.md`
 
 ---
 
@@ -23,7 +22,6 @@ Builds on: `docs/week1_project_scope.md`
 | **Important Constraints** | **Data:** official sources differ in format and detail by state; hours and fees change over time. **Access:** the routing service has a monthly free usage cap (10,000 requests per SKU per month for route computation); routing results may not be stored long-term under the provider's terms. **Budget:** student project — near-zero running cost. **Time:** one semester. **Policy:** source documents not redistributed in the public repo; API keys never committed. **Technical:** cross-state routing by road only within Peninsular Malaysia. |
 | **Explicit Out-of-Scope Tasks** | Booking or paying for hotels, transport, tickets or tours. Flights, including Peninsular ↔ East Malaysia. Trips outside Malaysia. Visa, immigration or legal advice. Medical or safety-critical advice (e.g. whether a hike is safe for a heart condition). Recommending places that are not in the official knowledge base. Guaranteeing that hours or prices are current. |
 | **Evaluation Focus** | Does JalanJalanMY produce personalised itineraries that are **grounded** (every stop comes from an official source), **feasible** (no closed venues, achievable travel times, within budget) and **accurate** (correct hours and fees) — consistently across states — at acceptable latency and cost? |
-| **Traceability** | O1 → FR3, FR4, NFR2, RAI1 (grounding, sources). O2 → FR1, FR2, FR5, FR6, NFR1, NFR3 (agent, planning, checking). O3 → all NFR and RAI thresholds, evaluated in `week2_evaluation_criteria.md`. |
 
 ---
 
@@ -37,7 +35,6 @@ Builds on: `docs/week1_project_scope.md`
 | FR4 | Check every plan before display for: venue open at the planned time, achievable travel time between consecutive stops, and total daily cost within the user's budget; and revise or flag any plan that fails a check. | Show a plan containing a known violation without clearly marking it. |
 | FR5 | Update the itinerary when the user changes a preference (e.g. adds a state, lowers the budget, changes the pace), and re-run the feasibility checks. | Silently drop previously confirmed preferences when updating. |
 | FR6 | Decline requests outside the defined trip-planning scope (bookings, payments, visas, flights, medical or legal questions, non-Malaysian destinations) and redirect the user to an appropriate official channel. | Perform bookings or payments, or give visa, legal or medical advice. |
-| FR7 | Present itineraries in clear English suitable for domestic and international tourists, including a "verify before visiting" notice. | — |
 
 ---
 
@@ -66,6 +63,6 @@ Builds on: `docs/week1_project_scope.md`
 
 ---
 
-## 🤔 Reflection — Which Responsible AI requirement is most difficult to measure or enforce?
+## Reflection — Which Responsible AI requirement is most difficult to measure or enforce?
 
 **RAI4 (outdated information)** is the hardest to enforce. RAI1 can be enforced in code because a stop either exists in the knowledge base or it does not. RAI4 depends on facts that change in the real world without telling us: a museum can change its hours or close permanently the day after we collect the data, and the official page itself may be out of date. The system can only show the date we last checked and flag old entries — it cannot know the true current state. Measuring it is also costly, because checking whether the information is still correct needs manual re-verification of each source. This means RAI4 reduces the harm (users are warned) rather than removing it, which is why the "verify before visiting" notice is part of FR7.
