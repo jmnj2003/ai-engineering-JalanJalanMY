@@ -2,7 +2,6 @@
 
 Version: 1.0
 Diagram: `docs/week2_architecture_v1.png`
-Builds on: `docs/week2_requirements.md`, `docs/week2_evaluation_criteria.md`
 
 ---
 
