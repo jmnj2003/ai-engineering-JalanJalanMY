@@ -1,7 +1,6 @@
 # Evaluation Criteria — JalanJalanMY
 
 Version: 1.0
-Builds on: `docs/week2_requirements.md`
 
 **Evaluation workload (used by several criteria):** 40 trip requests — 10 per evaluated state (Penang, Kuala Lumpur, Melaka, Sabah), of which 10 in total are cross-state road trips in Peninsular Malaysia. Requests vary days (1–5), budget, transport, travel group and interests. Plus a scope/safety set of at least 20 queries and 30 scripted preference conversations.
 
@@ -27,6 +26,6 @@ Builds on: `docs/week2_requirements.md`
 
 ---
 
-## 🤔 Reflection — Which evaluation criterion is most important for usefulness?
+## Reflection — Which evaluation criterion is most important for usefulness?
 
 **Plan Feasibility** is the most important. The whole reason for JalanJalanMY is that existing AI planners produce plans that do not work in real life — closed venues, wrong hours, impossible travel. A plan that is personalised and well-written but sends a family to a museum on its closed day, or schedules a 3-hour drive into a 1-hour gap, fails the user at the moment it matters most. Grounding and fact accuracy are necessary parts of feasibility, but feasibility is the criterion that directly tells us whether a tourist can follow the plan as written. If this threshold is not met, the system is no better than the tools it is trying to improve on.
