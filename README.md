@@ -54,7 +54,7 @@ Preference Agent asks only for missing details
 
 ## Repository Structure
 ```
-docs/        observation sheet, system map, project scope
+docs/        observation sheet, system map, project scope, requirements, evaluation criteria, architecture
 data/        (local only — see note above)
 src/         application code
 notebooks/   Colab notebooks (from Week 3)
@@ -66,4 +66,4 @@ prompts/     system prompts and templates
 | Week | Focus | Deliverable | Status |
 |------|-------|-------------|--------|
 | W1 | System map + project scope | README + docs | ✅ |
-| W2 | Requirements + evaluation criteria + architecture | md | ✅ |
+| W2 | Requirements + evaluation criteria + architecture | docs | ✅ |
