@@ -66,3 +66,4 @@ prompts/     system prompts and templates
 | Week | Focus | Deliverable | Status |
 |------|-------|-------------|--------|
 | W1 | System map + project scope | README + docs | ✅ |
+| W2 | Requirements + evaluation criteria + architecture | md | ✅ |
