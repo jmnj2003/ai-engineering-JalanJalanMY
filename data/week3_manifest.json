@@ -1,0 +1,17 @@
+{
+  "pipeline_version": "week3-v1",
+  "generated_at_utc": "2026-11-11T12:32:23.074089+00:00",
+  "records": [
+    {
+      "source_id": "S01",
+      "source_filename": "IDB_PDF_KLD_EN.pdf",
+      "source_sha256": "1484ba6f1b3203f2f1f3ec96c86f8bfcc6bf0ec6988610d0b4fe207eb65b76f7",
+      "prepared_output": "data/processed/prepared_text.jsonl",
+      "prepared_sha256": "78a3778b07ed77cd84b0cdfc47c89d98e565ce99f1e2e8971f74cb1428d640c3",
+      "processing_note": "paragraph-aware-char-500",
+      "source_version": "Not verified",
+      "access_rights": "Not verified",
+      "status": "Prepared; quality review pending"
+    }
+  ]
+}

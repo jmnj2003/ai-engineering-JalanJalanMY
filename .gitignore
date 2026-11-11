@@ -1,0 +1,3 @@
+*.pdf
+data/processed/*.jsonl
+data/pipeline_v1/documents/*.jsonl

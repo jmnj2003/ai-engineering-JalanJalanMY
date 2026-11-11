@@ -42,6 +42,7 @@ Preference Agent asks only for missing details
 ```
 
 ## Data Sources
+- Tourism Malaysia e-brochures (Week 3 pipeline input: *Kuala Lumpur — The Dazzling Capital City*; *Penang Map & Guide*) — https://ebrochures.malaysia.travel
 - Tourism Malaysia official e-brochures — https://ebrochures.malaysia.travel
 - Penang Global Tourism — http://www.mypenang.gov.my
 - Penang Hill Corporation — https://www.penanghill.gov.my/index.php/en/tickets
@@ -54,7 +55,7 @@ Preference Agent asks only for missing details
 
 ## Repository Structure
 ```
-docs/        observation sheet, system map, project scope, requirements, evaluation criteria, architecture
+docs/        observation sheet, system map, project scope
 data/        (local only — see note above)
 src/         application code
 notebooks/   Colab notebooks (from Week 3)
@@ -66,4 +67,5 @@ prompts/     system prompts and templates
 | Week | Focus | Deliverable | Status |
 |------|-------|-------------|--------|
 | W1 | System map + project scope | README + docs | ✅ |
-| W2 | Requirements + evaluation criteria + architecture | docs | ✅ |
+| W2 | Requirements, evaluation criteria, V1 architecture | [requirements](docs/week2_requirements.md), [evaluation](docs/week2_evaluation_criteria.md), [architecture](docs/week2_architecture_v1.png), [decisions](docs/week2_architecture_decisions.md) | ✅ |
+| W3 | V1 data pipeline (Pathway A: PDF) — Tourism Malaysia KL guide → 303 paragraph-aware chunks, lineage + repeatability PASS | [notebook](notebooks/week3_pipeline.ipynb), [data inventory](docs/week3_data_inventory.md), [pipeline diagram](docs/week3_pipeline_diagram.png), [decisions](docs/week3_pipeline_decisions.md), [manifest](data/week3_manifest.json) | ✅ |

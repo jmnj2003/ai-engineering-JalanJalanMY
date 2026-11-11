@@ -1,0 +1,41 @@
+{
+  "pipeline_version": "week3-v1",
+  "generated_at_utc": "2026-11-11T12:32:52.681616+00:00",
+  "data_type": "documents",
+  "configuration": {
+    "chunk_size": 500,
+    "method": "paragraph-aware"
+  },
+  "processing_method": "paragraph-aware text chunks of 500 characters",
+  "sources": [
+    {
+      "path": "/content/week3_project/data/raw/IDB_PDF_KLD_EN.pdf",
+      "sha256": "1484ba6f1b3203f2f1f3ec96c86f8bfcc6bf0ec6988610d0b4fe207eb65b76f7"
+    }
+  ],
+  "outputs": [
+    "/content/week3_project/data/pipeline_v1/documents/prepared_text.jsonl"
+  ],
+  "source_output_mapping": [
+    {
+      "source": "/content/week3_project/data/raw/IDB_PDF_KLD_EN.pdf",
+      "output": "/content/week3_project/data/pipeline_v1/documents/prepared_text.jsonl"
+    }
+  ],
+  "inspection": {
+    "source": "IDB_PDF_KLD_EN.pdf",
+    "characters": 143570,
+    "pages": 72
+  },
+  "validation": {
+    "output_count": 1,
+    "output_sha256": [
+      "3230b65ac348acca74430a73830c8f6784c23ecd29201e3c2f519f4284568e70"
+    ],
+    "output_bytes": [
+      178360
+    ]
+  },
+  "source_version": "Not verified",
+  "access_rights": "Not verified — check before sharing"
+}
