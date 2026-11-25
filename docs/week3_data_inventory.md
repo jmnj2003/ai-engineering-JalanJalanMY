@@ -32,3 +32,22 @@ Notebook: `notebooks/week3_pipeline.ipynb`
 | Page numbers not kept in chunks (`page: null`) | **RAI1** — source traceability | Keep page boundaries in a later pipeline version. |
 | Map-layout PDFs (S02 type) mix descriptions with map labels | **FR3** — clean attraction text | Not prepared in V1; handle with a layout-aware loader or filter short lines later. |
 | Public transport timetables (FR8) not yet ingested | **FR8, RAI7** | Separate structured source (official open-data timetables) in a later week. |
+
+## Sources added after Topic 4 — state expansion (Week 4b)
+
+Added to meet Topic 4 quality-gate **condition 1** (official sources for Penang, Melaka and Sabah). Prepared and checked in `notebooks/week4_state_expansion.ipynb` with the same Topic 3 chunking and Topic 4 rules; **page numbers are kept** for these sources.
+
+| Source ID | Filename / URL | Type and purpose | Version / date / owner | Access / rights | Inspection evidence |
+|---|---|---|---|---|---|
+| S03 | `MTG_2023.pdf` pages 53–63 — *Malaysia Travel Guide 2023*, Melaka chapter (Tourism Malaysia e-brochure portal: https://ebrochures.malaysia.travel) | Unstructured text (PDF). Official Melaka attractions — supports **FR3 / RAI1, RAI2** | Owner: Tourism Malaysia. PDF modified 28 May 2025. SHA-256 `7b1830e3…cdbc47d6a13` | © Tourism Malaysia, all rights reserved; coursework use only; not committed | 11 pages, 15,620 characters, 0 glyph-ID codes, 0 ligature artefacts; readable prose (e.g. "THE STADTHUYS … Built in 1645, it now houses the Museum of History and Ethnography") → 35 chunks |
+| S04 | `MTG_2023.pdf` pages 89–99 — Penang chapter | As S03, for Penang | As S03 | As S03 | 11 pages, 17,575 characters, 0 glyph-ID codes; readable (e.g. "GEORGE TOWN A UNESCO World Heritage City…") → 40 chunks |
+| S05 | `MTG_2023.pdf` pages 159–179 — Sabah chapter | As S03, for Sabah | As S03 | As S03 | 21 pages, 21,165 characters, 0 glyph-ID codes, 1 ligature artefact → 54 chunks |
+| S06 | `Map_Guide_PENANG_Eng.pdf` — *Penang Map & Guide* (same file as S02, now prepared) | Text + map layout. Penang attractions, phone numbers | Owner: Tourism Malaysia. Modified 14 Mar 2024. SHA-256 `1f956c18…2735491` | As S03 | 2 pages; **map-label filter** kept 596 of 1,765 lines (dropped street/area labels such as "Jalan Argyll") → 53 chunks |
+| S07 | `Melaka_Map_Guide_IDB_small.pdf` — *Melaka Map & Guide* | As S06, for Melaka | Owner: Tourism Malaysia. Modified 8 Feb 2024. SHA-256 `253d2ec3…a4c7a4a511d2422` | As S03 | 2 pages; filter kept 446 of 1,314 lines → 42 chunks |
+| S08 | `Sabah Map & Guide.pdf` — *Sabah Map & Guide* | As S06, for Sabah | Owner: Tourism Malaysia. Modified 21 Feb 2024. SHA-256 `f90bfc87…494e4c6c64` | As S03 | 2 pages; filter kept 474 of 1,291 lines → 46 chunks |
+
+| Output | Location | Records | Notes |
+|---|---|---|---|
+| New prepared chunks (S03–S08) | `data/processed/prepared_text_states.jsonl` | 270 | Topic 3 record format plus `source_id`, `state`, `page` |
+| Reviewed corpus v2 (KL + 3 states) | `data/prepared_chunks_clean_v2.jsonl` + `data/chunks_clean_v2.pkl` | 503 | KL 247 · Penang 89 · Melaka 75 · Sabah 92 |
+| Lineage manifest | `data/week4_states_manifest.json` | — | Source and output SHA-256, method, counts |

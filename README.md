@@ -42,7 +42,7 @@ Preference Agent asks only for missing details
 ```
 
 ## Data Sources
-- Tourism Malaysia e-brochures (Week 3 pipeline input: *Kuala Lumpur — The Dazzling Capital City*; *Penang Map & Guide*) — https://ebrochures.malaysia.travel
+- Tourism Malaysia e-brochures — https://ebrochures.malaysia.travel: *Kuala Lumpur — The Dazzling Capital City* (Week 3); *Malaysia Travel Guide 2023* (Melaka, Penang, Sabah chapters) and the Penang, Melaka and Sabah *Map & Guide* leaflets (Week 4b)
 - Tourism Malaysia official e-brochures — https://ebrochures.malaysia.travel
 - Penang Global Tourism — http://www.mypenang.gov.my
 - Penang Hill Corporation — https://www.penanghill.gov.my/index.php/en/tickets
@@ -69,3 +69,8 @@ prompts/     system prompts and templates
 | W1 | System map + project scope | README + docs | ✅ |
 | W2 | Requirements, evaluation criteria, V1 architecture | [requirements](docs/week2_requirements.md), [evaluation](docs/week2_evaluation_criteria.md), [architecture](docs/week2_architecture_v1.png), [decisions](docs/week2_architecture_decisions.md) | ✅ |
 | W3 | V1 data pipeline (Pathway A: PDF) — Tourism Malaysia KL guide → 303 paragraph-aware chunks, lineage + repeatability PASS | [notebook](notebooks/week3_pipeline.ipynb), [data inventory](docs/week3_data_inventory.md), [pipeline diagram](docs/week3_pipeline_diagram.png), [decisions](docs/week3_pipeline_decisions.md), [manifest](data/week3_manifest.json) | ✅ |
+| W4 | Data quality, bias & governance review — 148 corrupted chunks repaired, 55 unreadable map chunks quarantined, 247 reviewed chunks; gate: **GO WITH CONDITIONS** | [notebook](notebooks/week4_quality.ipynb), [report](docs/week4_data_quality_report.md), [validation failures](docs/week4_validation_failures.csv), [quarantine log](docs/week4_quarantine_log.csv), [coverage](docs/week4_coverage_by_source.png) | ✅ |
+
+| W4b | State source expansion (quality-gate condition 1) — Penang, Melaka, Sabah added from 6 Tourism Malaysia sources with page numbers; corpus v2 = 503 chunks (KL 247 · Penang 89 · Melaka 75 · Sabah 92) | [notebook](notebooks/week4_state_expansion.ipynb), [report §9](docs/week4_data_quality_report.md), [coverage by state](docs/week4_coverage_by_state.png), [manifest](data/week4_states_manifest.json) | ✅ |
+
+> **Corpus for later topics:** Topic 7 onwards uses **corpus v2** — `data/prepared_chunks_clean_v2.jsonl` + `data/chunks_clean_v2.pkl` (503 chunks, all four evaluated states) — **not** the Topic 3 output in `data/processed/` or the KL-only Topic 4 corpus.

@@ -1,0 +1,18 @@
+schema_context,column,check,check_number,failure_case,index
+Column,char_count,char_count >= 100 (shorter than one sentence),0,1,19
+Column,char_count,char_count >= 100 (shorter than one sentence),0,83,98
+Column,has_ligature_artefact,PDF ligature artefact (/f_ or U+FB00-FB06),0,1,239
+Column,has_ligature_artefact,PDF ligature artefact (/f_ or U+FB00-FB06),0,1,224
+Column,has_ligature_artefact,PDF ligature artefact (/f_ or U+FB00-FB06),0,1,217
+Column,has_ligature_artefact,PDF ligature artefact (/f_ or U+FB00-FB06),0,1,76
+Column,char_count,char_count >= 100 (shorter than one sentence),0,10,106
+Column,char_count,char_count >= 100 (shorter than one sentence),0,88,103
+Column,char_count,char_count >= 100 (shorter than one sentence),0,10,87
+Column,char_count,char_count >= 100 (shorter than one sentence),0,30,37
+Column,char_count,char_count >= 100 (shorter than one sentence),0,45,84
+Column,char_count,char_count >= 100 (shorter than one sentence),0,3,82
+Column,char_count,char_count >= 100 (shorter than one sentence),0,27,78
+Column,char_count,char_count >= 100 (shorter than one sentence),0,48,77
+Column,char_count,char_count >= 100 (shorter than one sentence),0,23,61
+Column,char_count,char_count >= 100 (shorter than one sentence),0,21,46
+Column,has_ligature_artefact,PDF ligature artefact (/f_ or U+FB00-FB06),0,1,240

@@ -1,0 +1,86 @@
+{
+  "created": "2026-11-25",
+  "method": "paragraph-aware-char-500 (+map-label-filter for map guides)",
+  "sources": [
+    {
+      "source_id": "S03",
+      "file": "MTG_2023.pdf",
+      "state": "Melaka",
+      "pages": "53-63",
+      "kind": "guide-chapter",
+      "chars": 15617,
+      "glyph_id_codes": 0,
+      "ligature_artefacts": 0,
+      "pdf_modified": "20250528",
+      "sha256": "7b1830e31301"
+    },
+    {
+      "source_id": "S04",
+      "file": "MTG_2023.pdf",
+      "state": "Penang",
+      "pages": "89-99",
+      "kind": "guide-chapter",
+      "chars": 17573,
+      "glyph_id_codes": 0,
+      "ligature_artefacts": 0,
+      "pdf_modified": "20250528",
+      "sha256": "7b1830e31301"
+    },
+    {
+      "source_id": "S05",
+      "file": "MTG_2023.pdf",
+      "state": "Sabah",
+      "pages": "159-179",
+      "kind": "guide-chapter",
+      "chars": 21164,
+      "glyph_id_codes": 0,
+      "ligature_artefacts": 1,
+      "pdf_modified": "20250528",
+      "sha256": "7b1830e31301"
+    },
+    {
+      "source_id": "S06",
+      "file": "Map_Guide_PENANG_Eng.pdf",
+      "state": "Penang",
+      "pages": "1-2",
+      "kind": "map-guide",
+      "chars": 39435,
+      "glyph_id_codes": 0,
+      "ligature_artefacts": 6,
+      "pdf_modified": "20240314",
+      "sha256": "1f956c184ebb"
+    },
+    {
+      "source_id": "S07",
+      "file": "Melaka_Map_Guide_IDB_small.pdf",
+      "state": "Melaka",
+      "pages": "1-2",
+      "kind": "map-guide",
+      "chars": 30276,
+      "glyph_id_codes": 0,
+      "ligature_artefacts": 1,
+      "pdf_modified": "20240208",
+      "sha256": "253d2ec35fd8"
+    },
+    {
+      "source_id": "S08",
+      "file": "Sabah Map & Guide.pdf",
+      "state": "Sabah",
+      "pages": "1-2",
+      "kind": "map-guide",
+      "chars": 33056,
+      "glyph_id_codes": 0,
+      "ligature_artefacts": 8,
+      "pdf_modified": "20240221",
+      "sha256": "f90bfc87175d"
+    }
+  ],
+  "removed": 8,
+  "new_chunks_kept": 262,
+  "kl_chunks": 503,
+  "corpus_v2_chunks": 571,
+  "outputs": {
+    "data/processed/prepared_text_states.jsonl": "4089e33e27f93c34e2e5cd0288fd0387e4ebfaa48b7402d5da535482db85c341",
+    "data/prepared_chunks_clean_v2.jsonl": "e15aa1c1578b2ddbf64fd1a03c1b6dc1cd93f87fe2e78c6a77166505d422ee34"
+  }
+}
