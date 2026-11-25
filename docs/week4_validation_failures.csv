@@ -1,0 +1,515 @@
+schema_context,column,check,check_number,failure_case,index
+Column,char_count,char_count >= 100 (shorter than one sentence),0,32,37
+Column,has_page_ref,page reference missing (traceability),0,0,174
+Column,has_page_ref,page reference missing (traceability),0,0,140
+Column,has_page_ref,page reference missing (traceability),0,0,139
+Column,has_page_ref,page reference missing (traceability),0,0,138
+Column,has_page_ref,page reference missing (traceability),0,0,137
+Column,has_page_ref,page reference missing (traceability),0,0,136
+Column,has_page_ref,page reference missing (traceability),0,0,135
+Column,has_page_ref,page reference missing (traceability),0,0,134
+Column,has_page_ref,page reference missing (traceability),0,0,133
+Column,has_page_ref,page reference missing (traceability),0,0,132
+Column,has_page_ref,page reference missing (traceability),0,0,131
+Column,has_page_ref,page reference missing (traceability),0,0,130
+Column,has_page_ref,page reference missing (traceability),0,0,129
+Column,has_page_ref,page reference missing (traceability),0,0,128
+Column,has_page_ref,page reference missing (traceability),0,0,127
+Column,has_page_ref,page reference missing (traceability),0,0,126
+Column,has_page_ref,page reference missing (traceability),0,0,125
+Column,has_page_ref,page reference missing (traceability),0,0,124
+Column,has_page_ref,page reference missing (traceability),0,0,123
+Column,has_page_ref,page reference missing (traceability),0,0,122
+Column,has_page_ref,page reference missing (traceability),0,0,121
+Column,has_page_ref,page reference missing (traceability),0,0,120
+Column,has_page_ref,page reference missing (traceability),0,0,119
+Column,has_page_ref,page reference missing (traceability),0,0,118
+Column,has_page_ref,page reference missing (traceability),0,0,117
+Column,has_page_ref,page reference missing (traceability),0,0,116
+Column,has_page_ref,page reference missing (traceability),0,0,115
+Column,has_page_ref,page reference missing (traceability),0,0,114
+Column,has_page_ref,page reference missing (traceability),0,0,113
+Column,has_page_ref,page reference missing (traceability),0,0,112
+Column,has_page_ref,page reference missing (traceability),0,0,141
+Column,has_page_ref,page reference missing (traceability),0,0,142
+Column,has_page_ref,page reference missing (traceability),0,0,143
+Column,has_page_ref,page reference missing (traceability),0,0,159
+Column,has_page_ref,page reference missing (traceability),0,0,172
+Column,has_page_ref,page reference missing (traceability),0,0,171
+Column,has_page_ref,page reference missing (traceability),0,0,170
+Column,has_page_ref,page reference missing (traceability),0,0,169
+Column,has_page_ref,page reference missing (traceability),0,0,168
+Column,has_page_ref,page reference missing (traceability),0,0,167
+Column,has_page_ref,page reference missing (traceability),0,0,166
+Column,has_page_ref,page reference missing (traceability),0,0,165
+Column,has_page_ref,page reference missing (traceability),0,0,164
+Column,has_page_ref,page reference missing (traceability),0,0,163
+Column,has_page_ref,page reference missing (traceability),0,0,162
+Column,has_page_ref,page reference missing (traceability),0,0,161
+Column,has_page_ref,page reference missing (traceability),0,0,160
+Column,has_page_ref,page reference missing (traceability),0,0,158
+Column,has_page_ref,page reference missing (traceability),0,0,144
+Column,has_page_ref,page reference missing (traceability),0,0,157
+Column,has_page_ref,page reference missing (traceability),0,0,156
+Column,has_page_ref,page reference missing (traceability),0,0,155
+Column,has_page_ref,page reference missing (traceability),0,0,154
+Column,has_page_ref,page reference missing (traceability),0,0,153
+Column,has_page_ref,page reference missing (traceability),0,0,152
+Column,has_page_ref,page reference missing (traceability),0,0,151
+Column,has_page_ref,page reference missing (traceability),0,0,150
+Column,has_page_ref,page reference missing (traceability),0,0,149
+Column,has_page_ref,page reference missing (traceability),0,0,148
+Column,has_page_ref,page reference missing (traceability),0,0,147
+Column,has_page_ref,page reference missing (traceability),0,0,146
+Column,has_page_ref,page reference missing (traceability),0,0,145
+Column,has_page_ref,page reference missing (traceability),0,0,111
+Column,has_page_ref,page reference missing (traceability),0,0,110
+Column,has_page_ref,page reference missing (traceability),0,0,109
+Column,has_page_ref,page reference missing (traceability),0,0,62
+Column,has_page_ref,page reference missing (traceability),0,0,75
+Column,has_page_ref,page reference missing (traceability),0,0,74
+Column,has_page_ref,page reference missing (traceability),0,0,73
+Column,has_page_ref,page reference missing (traceability),0,0,72
+Column,has_page_ref,page reference missing (traceability),0,0,71
+Column,has_page_ref,page reference missing (traceability),0,0,70
+Column,has_page_ref,page reference missing (traceability),0,0,69
+Column,has_page_ref,page reference missing (traceability),0,0,68
+Column,has_page_ref,page reference missing (traceability),0,0,67
+Column,has_page_ref,page reference missing (traceability),0,0,66
+Column,has_page_ref,page reference missing (traceability),0,0,65
+Column,has_page_ref,page reference missing (traceability),0,0,64
+Column,has_page_ref,page reference missing (traceability),0,0,63
+Column,has_page_ref,page reference missing (traceability),0,0,61
+Column,has_page_ref,page reference missing (traceability),0,0,77
+Column,has_page_ref,page reference missing (traceability),0,0,60
+Column,has_page_ref,page reference missing (traceability),0,0,59
+Column,has_page_ref,page reference missing (traceability),0,0,58
+Column,has_page_ref,page reference missing (traceability),0,0,57
+Column,has_page_ref,page reference missing (traceability),0,0,56
+Column,has_page_ref,page reference missing (traceability),0,0,55
+Column,has_page_ref,page reference missing (traceability),0,0,54
+Column,has_page_ref,page reference missing (traceability),0,0,53
+Column,has_page_ref,page reference missing (traceability),0,0,52
+Column,has_page_ref,page reference missing (traceability),0,0,51
+Column,has_page_ref,page reference missing (traceability),0,0,50
+Column,has_page_ref,page reference missing (traceability),0,0,49
+Column,has_page_ref,page reference missing (traceability),0,0,48
+Column,has_page_ref,page reference missing (traceability),0,0,76
+Column,has_page_ref,page reference missing (traceability),0,0,78
+Column,has_page_ref,page reference missing (traceability),0,0,108
+Column,has_page_ref,page reference missing (traceability),0,0,94
+Column,has_page_ref,page reference missing (traceability),0,0,107
+Column,has_page_ref,page reference missing (traceability),0,0,106
+Column,has_page_ref,page reference missing (traceability),0,0,105
+Column,has_page_ref,page reference missing (traceability),0,0,104
+Column,has_page_ref,page reference missing (traceability),0,0,103
+Column,has_page_ref,page reference missing (traceability),0,0,102
+Column,has_page_ref,page reference missing (traceability),0,0,101
+Column,has_page_ref,page reference missing (traceability),0,0,100
+Column,has_page_ref,page reference missing (traceability),0,0,99
+Column,has_page_ref,page reference missing (traceability),0,0,98
+Column,has_page_ref,page reference missing (traceability),0,0,97
+Column,has_page_ref,page reference missing (traceability),0,0,96
+Column,has_page_ref,page reference missing (traceability),0,0,95
+Column,has_page_ref,page reference missing (traceability),0,0,93
+Column,has_page_ref,page reference missing (traceability),0,0,79
+Column,has_page_ref,page reference missing (traceability),0,0,92
+Column,has_page_ref,page reference missing (traceability),0,0,91
+Column,has_page_ref,page reference missing (traceability),0,0,90
+Column,has_page_ref,page reference missing (traceability),0,0,89
+Column,has_page_ref,page reference missing (traceability),0,0,88
+Column,has_page_ref,page reference missing (traceability),0,0,87
+Column,has_page_ref,page reference missing (traceability),0,0,86
+Column,has_page_ref,page reference missing (traceability),0,0,85
+Column,has_page_ref,page reference missing (traceability),0,0,84
+Column,has_page_ref,page reference missing (traceability),0,0,83
+Column,has_page_ref,page reference missing (traceability),0,0,82
+Column,has_page_ref,page reference missing (traceability),0,0,81
+Column,has_page_ref,page reference missing (traceability),0,0,80
+Column,has_page_ref,page reference missing (traceability),0,0,173
+Column,has_page_ref,page reference missing (traceability),0,0,175
+Column,char_count,char_count >= 100 (shorter than one sentence),0,74,68
+Column,has_page_ref,page reference missing (traceability),0,0,176
+Column,has_page_ref,page reference missing (traceability),0,0,269
+Column,has_page_ref,page reference missing (traceability),0,0,268
+Column,has_page_ref,page reference missing (traceability),0,0,267
+Column,has_page_ref,page reference missing (traceability),0,0,266
+Column,has_page_ref,page reference missing (traceability),0,0,265
+Column,has_page_ref,page reference missing (traceability),0,0,264
+Column,has_page_ref,page reference missing (traceability),0,0,263
+Column,has_page_ref,page reference missing (traceability),0,0,262
+Column,has_page_ref,page reference missing (traceability),0,0,261
+Column,has_page_ref,page reference missing (traceability),0,0,260
+Column,has_page_ref,page reference missing (traceability),0,0,259
+Column,has_page_ref,page reference missing (traceability),0,0,258
+Column,has_page_ref,page reference missing (traceability),0,0,257
+Column,has_page_ref,page reference missing (traceability),0,0,256
+Column,has_page_ref,page reference missing (traceability),0,0,255
+Column,has_page_ref,page reference missing (traceability),0,0,254
+Column,has_page_ref,page reference missing (traceability),0,0,253
+Column,has_page_ref,page reference missing (traceability),0,0,252
+Column,has_page_ref,page reference missing (traceability),0,0,251
+Column,has_page_ref,page reference missing (traceability),0,0,250
+Column,has_page_ref,page reference missing (traceability),0,0,249
+Column,has_page_ref,page reference missing (traceability),0,0,248
+Column,has_page_ref,page reference missing (traceability),0,0,247
+Column,has_page_ref,page reference missing (traceability),0,0,246
+Column,has_page_ref,page reference missing (traceability),0,0,245
+Column,has_page_ref,page reference missing (traceability),0,0,244
+Column,has_page_ref,page reference missing (traceability),0,0,243
+Column,has_page_ref,page reference missing (traceability),0,0,242
+Column,has_page_ref,page reference missing (traceability),0,0,241
+Column,has_page_ref,page reference missing (traceability),0,0,270
+Column,has_page_ref,page reference missing (traceability),0,0,271
+Column,has_page_ref,page reference missing (traceability),0,0,272
+Column,has_page_ref,page reference missing (traceability),0,0,288
+Column,has_page_ref,page reference missing (traceability),0,0,301
+Column,has_page_ref,page reference missing (traceability),0,0,300
+Column,has_page_ref,page reference missing (traceability),0,0,299
+Column,has_page_ref,page reference missing (traceability),0,0,298
+Column,has_page_ref,page reference missing (traceability),0,0,297
+Column,has_page_ref,page reference missing (traceability),0,0,296
+Column,has_page_ref,page reference missing (traceability),0,0,295
+Column,has_page_ref,page reference missing (traceability),0,0,294
+Column,has_page_ref,page reference missing (traceability),0,0,293
+Column,has_page_ref,page reference missing (traceability),0,0,292
+Column,has_page_ref,page reference missing (traceability),0,0,291
+Column,has_page_ref,page reference missing (traceability),0,0,290
+Column,has_page_ref,page reference missing (traceability),0,0,289
+Column,has_page_ref,page reference missing (traceability),0,0,287
+Column,has_page_ref,page reference missing (traceability),0,0,273
+Column,has_page_ref,page reference missing (traceability),0,0,286
+Column,has_page_ref,page reference missing (traceability),0,0,285
+Column,has_page_ref,page reference missing (traceability),0,0,284
+Column,has_page_ref,page reference missing (traceability),0,0,283
+Column,has_page_ref,page reference missing (traceability),0,0,282
+Column,has_page_ref,page reference missing (traceability),0,0,281
+Column,has_page_ref,page reference missing (traceability),0,0,280
+Column,has_page_ref,page reference missing (traceability),0,0,279
+Column,has_page_ref,page reference missing (traceability),0,0,278
+Column,has_page_ref,page reference missing (traceability),0,0,277
+Column,has_page_ref,page reference missing (traceability),0,0,276
+Column,has_page_ref,page reference missing (traceability),0,0,275
+Column,has_page_ref,page reference missing (traceability),0,0,274
+Column,has_page_ref,page reference missing (traceability),0,0,240
+Column,has_page_ref,page reference missing (traceability),0,0,239
+Column,has_page_ref,page reference missing (traceability),0,0,238
+Column,has_page_ref,page reference missing (traceability),0,0,191
+Column,has_page_ref,page reference missing (traceability),0,0,204
+Column,has_page_ref,page reference missing (traceability),0,0,203
+Column,has_page_ref,page reference missing (traceability),0,0,202
+Column,has_page_ref,page reference missing (traceability),0,0,201
+Column,has_page_ref,page reference missing (traceability),0,0,200
+Column,has_page_ref,page reference missing (traceability),0,0,199
+Column,has_page_ref,page reference missing (traceability),0,0,198
+Column,has_page_ref,page reference missing (traceability),0,0,197
+Column,has_page_ref,page reference missing (traceability),0,0,196
+Column,has_page_ref,page reference missing (traceability),0,0,195
+Column,has_page_ref,page reference missing (traceability),0,0,194
+Column,has_page_ref,page reference missing (traceability),0,0,193
+Column,has_page_ref,page reference missing (traceability),0,0,192
+Column,has_page_ref,page reference missing (traceability),0,0,190
+Column,has_page_ref,page reference missing (traceability),0,0,206
+Column,has_page_ref,page reference missing (traceability),0,0,189
+Column,has_page_ref,page reference missing (traceability),0,0,188
+Column,has_page_ref,page reference missing (traceability),0,0,187
+Column,has_page_ref,page reference missing (traceability),0,0,186
+Column,has_page_ref,page reference missing (traceability),0,0,185
+Column,has_page_ref,page reference missing (traceability),0,0,184
+Column,has_page_ref,page reference missing (traceability),0,0,183
+Column,has_page_ref,page reference missing (traceability),0,0,182
+Column,has_page_ref,page reference missing (traceability),0,0,181
+Column,has_page_ref,page reference missing (traceability),0,0,180
+Column,has_page_ref,page reference missing (traceability),0,0,179
+Column,has_page_ref,page reference missing (traceability),0,0,178
+Column,has_page_ref,page reference missing (traceability),0,0,177
+Column,has_page_ref,page reference missing (traceability),0,0,205
+Column,has_page_ref,page reference missing (traceability),0,0,207
+Column,has_page_ref,page reference missing (traceability),0,0,237
+Column,has_page_ref,page reference missing (traceability),0,0,223
+Column,has_page_ref,page reference missing (traceability),0,0,236
+Column,has_page_ref,page reference missing (traceability),0,0,235
+Column,has_page_ref,page reference missing (traceability),0,0,234
+Column,has_page_ref,page reference missing (traceability),0,0,233
+Column,has_page_ref,page reference missing (traceability),0,0,232
+Column,has_page_ref,page reference missing (traceability),0,0,231
+Column,has_page_ref,page reference missing (traceability),0,0,230
+Column,has_page_ref,page reference missing (traceability),0,0,229
+Column,has_page_ref,page reference missing (traceability),0,0,228
+Column,has_page_ref,page reference missing (traceability),0,0,227
+Column,has_page_ref,page reference missing (traceability),0,0,226
+Column,has_page_ref,page reference missing (traceability),0,0,225
+Column,has_page_ref,page reference missing (traceability),0,0,224
+Column,has_page_ref,page reference missing (traceability),0,0,222
+Column,has_page_ref,page reference missing (traceability),0,0,208
+Column,has_page_ref,page reference missing (traceability),0,0,221
+Column,has_page_ref,page reference missing (traceability),0,0,220
+Column,has_page_ref,page reference missing (traceability),0,0,219
+Column,has_page_ref,page reference missing (traceability),0,0,218
+Column,has_page_ref,page reference missing (traceability),0,0,217
+Column,has_page_ref,page reference missing (traceability),0,0,216
+Column,has_page_ref,page reference missing (traceability),0,0,215
+Column,has_page_ref,page reference missing (traceability),0,0,214
+Column,has_page_ref,page reference missing (traceability),0,0,213
+Column,has_page_ref,page reference missing (traceability),0,0,212
+Column,has_page_ref,page reference missing (traceability),0,0,211
+Column,has_page_ref,page reference missing (traceability),0,0,210
+Column,has_page_ref,page reference missing (traceability),0,0,209
+Column,has_page_ref,page reference missing (traceability),0,0,47
+Column,has_page_ref,page reference missing (traceability),0,0,46
+Column,has_page_ref,page reference missing (traceability),0,0,45
+Column,has_page_ref,page reference missing (traceability),0,0,44
+Column,has_ligature_artefact,PDF ligature artefact (/f_ or U+FB00-FB06),0,1,129
+Column,has_ligature_artefact,PDF ligature artefact (/f_ or U+FB00-FB06),0,1,128
+Column,has_ligature_artefact,PDF ligature artefact (/f_ or U+FB00-FB06),0,1,127
+Column,has_ligature_artefact,PDF ligature artefact (/f_ or U+FB00-FB06),0,1,126
+Column,has_ligature_artefact,PDF ligature artefact (/f_ or U+FB00-FB06),0,1,125
+Column,has_ligature_artefact,PDF ligature artefact (/f_ or U+FB00-FB06),0,1,123
+Column,has_ligature_artefact,PDF ligature artefact (/f_ or U+FB00-FB06),0,1,122
+Column,has_ligature_artefact,PDF ligature artefact (/f_ or U+FB00-FB06),0,1,120
+Column,has_ligature_artefact,PDF ligature artefact (/f_ or U+FB00-FB06),0,1,118
+Column,has_ligature_artefact,PDF ligature artefact (/f_ or U+FB00-FB06),0,1,117
+Column,has_ligature_artefact,PDF ligature artefact (/f_ or U+FB00-FB06),0,1,116
+Column,has_ligature_artefact,PDF ligature artefact (/f_ or U+FB00-FB06),0,1,115
+Column,has_ligature_artefact,PDF ligature artefact (/f_ or U+FB00-FB06),0,1,114
+Column,has_ligature_artefact,PDF ligature artefact (/f_ or U+FB00-FB06),0,1,113
+Column,has_ligature_artefact,PDF ligature artefact (/f_ or U+FB00-FB06),0,1,112
+Column,has_ligature_artefact,PDF ligature artefact (/f_ or U+FB00-FB06),0,1,110
+Column,has_ligature_artefact,PDF ligature artefact (/f_ or U+FB00-FB06),0,1,109
+Column,has_ligature_artefact,PDF ligature artefact (/f_ or U+FB00-FB06),0,1,108
+Column,has_ligature_artefact,PDF ligature artefact (/f_ or U+FB00-FB06),0,1,107
+Column,has_ligature_artefact,PDF ligature artefact (/f_ or U+FB00-FB06),0,1,106
+Column,has_ligature_artefact,PDF ligature artefact (/f_ or U+FB00-FB06),0,1,103
+Column,has_ligature_artefact,PDF ligature artefact (/f_ or U+FB00-FB06),0,1,102
+Column,has_ligature_artefact,PDF ligature artefact (/f_ or U+FB00-FB06),0,1,101
+Column,has_ligature_artefact,PDF ligature artefact (/f_ or U+FB00-FB06),0,1,100
+Column,has_ligature_artefact,PDF ligature artefact (/f_ or U+FB00-FB06),0,1,99
+Column,has_ligature_artefact,PDF ligature artefact (/f_ or U+FB00-FB06),0,1,98
+Column,has_ligature_artefact,PDF ligature artefact (/f_ or U+FB00-FB06),0,1,93
+Column,has_ligature_artefact,PDF ligature artefact (/f_ or U+FB00-FB06),0,1,92
+Column,has_ligature_artefact,PDF ligature artefact (/f_ or U+FB00-FB06),0,1,90
+Column,has_ligature_artefact,PDF ligature artefact (/f_ or U+FB00-FB06),0,1,130
+Column,has_ligature_artefact,PDF ligature artefact (/f_ or U+FB00-FB06),0,1,133
+Column,has_ligature_artefact,PDF ligature artefact (/f_ or U+FB00-FB06),0,1,134
+Column,has_ligature_artefact,PDF ligature artefact (/f_ or U+FB00-FB06),0,1,156
+Column,has_ligature_artefact,PDF ligature artefact (/f_ or U+FB00-FB06),0,1,183
+Column,has_ligature_artefact,PDF ligature artefact (/f_ or U+FB00-FB06),0,1,182
+Column,has_ligature_artefact,PDF ligature artefact (/f_ or U+FB00-FB06),0,1,181
+Column,has_ligature_artefact,PDF ligature artefact (/f_ or U+FB00-FB06),0,1,177
+Column,has_ligature_artefact,PDF ligature artefact (/f_ or U+FB00-FB06),0,1,174
+Column,has_ligature_artefact,PDF ligature artefact (/f_ or U+FB00-FB06),0,1,173
+Column,has_ligature_artefact,PDF ligature artefact (/f_ or U+FB00-FB06),0,1,171
+Column,has_ligature_artefact,PDF ligature artefact (/f_ or U+FB00-FB06),0,1,170
+Column,has_ligature_artefact,PDF ligature artefact (/f_ or U+FB00-FB06),0,1,168
+Column,has_ligature_artefact,PDF ligature artefact (/f_ or U+FB00-FB06),0,1,167
+Column,has_ligature_artefact,PDF ligature artefact (/f_ or U+FB00-FB06),0,1,166
+Column,has_ligature_artefact,PDF ligature artefact (/f_ or U+FB00-FB06),0,1,161
+Column,has_ligature_artefact,PDF ligature artefact (/f_ or U+FB00-FB06),0,1,160
+Column,has_ligature_artefact,PDF ligature artefact (/f_ or U+FB00-FB06),0,1,155
+Column,has_ligature_artefact,PDF ligature artefact (/f_ or U+FB00-FB06),0,1,135
+Column,has_ligature_artefact,PDF ligature artefact (/f_ or U+FB00-FB06),0,1,154
+Column,has_ligature_artefact,PDF ligature artefact (/f_ or U+FB00-FB06),0,1,152
+Column,has_ligature_artefact,PDF ligature artefact (/f_ or U+FB00-FB06),0,1,151
+Column,has_ligature_artefact,PDF ligature artefact (/f_ or U+FB00-FB06),0,1,149
+Column,has_ligature_artefact,PDF ligature artefact (/f_ or U+FB00-FB06),0,1,148
+Column,has_ligature_artefact,PDF ligature artefact (/f_ or U+FB00-FB06),0,1,146
+Column,has_ligature_artefact,PDF ligature artefact (/f_ or U+FB00-FB06),0,1,145
+Column,has_ligature_artefact,PDF ligature artefact (/f_ or U+FB00-FB06),0,1,144
+Column,has_ligature_artefact,PDF ligature artefact (/f_ or U+FB00-FB06),0,1,143
+Column,has_ligature_artefact,PDF ligature artefact (/f_ or U+FB00-FB06),0,1,142
+Column,has_ligature_artefact,PDF ligature artefact (/f_ or U+FB00-FB06),0,1,139
+Column,has_ligature_artefact,PDF ligature artefact (/f_ or U+FB00-FB06),0,1,138
+Column,has_ligature_artefact,PDF ligature artefact (/f_ or U+FB00-FB06),0,1,136
+Column,has_ligature_artefact,PDF ligature artefact (/f_ or U+FB00-FB06),0,1,89
+Column,has_ligature_artefact,PDF ligature artefact (/f_ or U+FB00-FB06),0,1,87
+Column,has_ligature_artefact,PDF ligature artefact (/f_ or U+FB00-FB06),0,1,85
+Column,has_ligature_artefact,PDF ligature artefact (/f_ or U+FB00-FB06),0,1,15
+Column,has_ligature_artefact,PDF ligature artefact (/f_ or U+FB00-FB06),0,1,30
+Column,has_ligature_artefact,PDF ligature artefact (/f_ or U+FB00-FB06),0,1,29
+Column,has_ligature_artefact,PDF ligature artefact (/f_ or U+FB00-FB06),0,1,28
+Column,has_ligature_artefact,PDF ligature artefact (/f_ or U+FB00-FB06),0,1,27
+Column,has_ligature_artefact,PDF ligature artefact (/f_ or U+FB00-FB06),0,1,26
+Column,has_ligature_artefact,PDF ligature artefact (/f_ or U+FB00-FB06),0,1,25
+Column,has_ligature_artefact,PDF ligature artefact (/f_ or U+FB00-FB06),0,1,24
+Column,has_ligature_artefact,PDF ligature artefact (/f_ or U+FB00-FB06),0,1,23
+Column,has_ligature_artefact,PDF ligature artefact (/f_ or U+FB00-FB06),0,1,22
+Column,has_ligature_artefact,PDF ligature artefact (/f_ or U+FB00-FB06),0,1,21
+Column,has_ligature_artefact,PDF ligature artefact (/f_ or U+FB00-FB06),0,1,20
+Column,has_ligature_artefact,PDF ligature artefact (/f_ or U+FB00-FB06),0,1,18
+Column,has_ligature_artefact,PDF ligature artefact (/f_ or U+FB00-FB06),0,1,16
+Column,has_ligature_artefact,PDF ligature artefact (/f_ or U+FB00-FB06),0,1,14
+Column,has_ligature_artefact,PDF ligature artefact (/f_ or U+FB00-FB06),0,1,32
+Column,has_ligature_artefact,PDF ligature artefact (/f_ or U+FB00-FB06),0,1,13
+Column,has_ligature_artefact,PDF ligature artefact (/f_ or U+FB00-FB06),0,1,11
+Column,has_ligature_artefact,PDF ligature artefact (/f_ or U+FB00-FB06),0,1,9
+Column,has_ligature_artefact,PDF ligature artefact (/f_ or U+FB00-FB06),0,1,8
+Column,has_ligature_artefact,PDF ligature artefact (/f_ or U+FB00-FB06),0,1,7
+Column,has_ligature_artefact,PDF ligature artefact (/f_ or U+FB00-FB06),0,1,6
+Column,has_ligature_artefact,PDF ligature artefact (/f_ or U+FB00-FB06),0,1,2
+Column,char_count,char_count >= 100 (shorter than one sentence),0,64,193
+Column,char_count,char_count >= 100 (shorter than one sentence),0,61,176
+Column,char_count,char_count >= 100 (shorter than one sentence),0,14,165
+Column,char_count,char_count >= 100 (shorter than one sentence),0,92,155
+Column,char_count,char_count >= 100 (shorter than one sentence),0,65,105
+Column,char_count,char_count >= 100 (shorter than one sentence),0,64,96
+Column,has_ligature_artefact,PDF ligature artefact (/f_ or U+FB00-FB06),0,1,31
+Column,has_ligature_artefact,PDF ligature artefact (/f_ or U+FB00-FB06),0,1,34
+Column,has_ligature_artefact,PDF ligature artefact (/f_ or U+FB00-FB06),0,1,83
+Column,has_ligature_artefact,PDF ligature artefact (/f_ or U+FB00-FB06),0,1,55
+Column,has_ligature_artefact,PDF ligature artefact (/f_ or U+FB00-FB06),0,1,82
+Column,has_ligature_artefact,PDF ligature artefact (/f_ or U+FB00-FB06),0,1,80
+Column,has_ligature_artefact,PDF ligature artefact (/f_ or U+FB00-FB06),0,1,79
+Column,has_ligature_artefact,PDF ligature artefact (/f_ or U+FB00-FB06),0,1,78
+Column,has_ligature_artefact,PDF ligature artefact (/f_ or U+FB00-FB06),0,1,77
+Column,has_ligature_artefact,PDF ligature artefact (/f_ or U+FB00-FB06),0,1,70
+Column,has_ligature_artefact,PDF ligature artefact (/f_ or U+FB00-FB06),0,1,65
+Column,has_ligature_artefact,PDF ligature artefact (/f_ or U+FB00-FB06),0,1,63
+Column,has_ligature_artefact,PDF ligature artefact (/f_ or U+FB00-FB06),0,1,62
+Column,has_ligature_artefact,PDF ligature artefact (/f_ or U+FB00-FB06),0,1,61
+Column,has_ligature_artefact,PDF ligature artefact (/f_ or U+FB00-FB06),0,1,60
+Column,has_ligature_artefact,PDF ligature artefact (/f_ or U+FB00-FB06),0,1,59
+Column,has_ligature_artefact,PDF ligature artefact (/f_ or U+FB00-FB06),0,1,58
+Column,has_ligature_artefact,PDF ligature artefact (/f_ or U+FB00-FB06),0,1,53
+Column,has_ligature_artefact,PDF ligature artefact (/f_ or U+FB00-FB06),0,1,35
+Column,has_ligature_artefact,PDF ligature artefact (/f_ or U+FB00-FB06),0,1,51
+Column,has_ligature_artefact,PDF ligature artefact (/f_ or U+FB00-FB06),0,1,50
+Column,has_ligature_artefact,PDF ligature artefact (/f_ or U+FB00-FB06),0,1,49
+Column,has_ligature_artefact,PDF ligature artefact (/f_ or U+FB00-FB06),0,1,48
+Column,has_ligature_artefact,PDF ligature artefact (/f_ or U+FB00-FB06),0,1,47
+Column,has_ligature_artefact,PDF ligature artefact (/f_ or U+FB00-FB06),0,1,46
+Column,has_ligature_artefact,PDF ligature artefact (/f_ or U+FB00-FB06),0,1,45
+Column,has_ligature_artefact,PDF ligature artefact (/f_ or U+FB00-FB06),0,1,43
+Column,has_ligature_artefact,PDF ligature artefact (/f_ or U+FB00-FB06),0,1,42
+Column,has_ligature_artefact,PDF ligature artefact (/f_ or U+FB00-FB06),0,1,41
+Column,has_ligature_artefact,PDF ligature artefact (/f_ or U+FB00-FB06),0,1,40
+Column,has_ligature_artefact,PDF ligature artefact (/f_ or U+FB00-FB06),0,1,39
+Column,has_ligature_artefact,PDF ligature artefact (/f_ or U+FB00-FB06),0,1,36
+Column,has_ligature_artefact,PDF ligature artefact (/f_ or U+FB00-FB06),0,1,191
+Column,has_ligature_artefact,PDF ligature artefact (/f_ or U+FB00-FB06),0,1,195
+Column,has_ligature_artefact,PDF ligature artefact (/f_ or U+FB00-FB06),0,1,196
+Column,glyph_id_garbage,glyph-ID garbage (/gidNNNNN): unreadable map text,0,1,281
+Column,has_page_ref,page reference missing (traceability),0,0,11
+Column,has_page_ref,page reference missing (traceability),0,0,10
+Column,has_page_ref,page reference missing (traceability),0,0,9
+Column,has_page_ref,page reference missing (traceability),0,0,8
+Column,has_page_ref,page reference missing (traceability),0,0,7
+Column,has_page_ref,page reference missing (traceability),0,0,6
+Column,has_page_ref,page reference missing (traceability),0,0,5
+Column,has_page_ref,page reference missing (traceability),0,0,4
+Column,has_page_ref,page reference missing (traceability),0,0,3
+Column,has_page_ref,page reference missing (traceability),0,0,2
+Column,has_page_ref,page reference missing (traceability),0,0,1
+Column,has_page_ref,page reference missing (traceability),0,0,0
+Column,glyph_id_garbage,glyph-ID garbage (/gidNNNNN): unreadable map text,0,1,282
+Column,glyph_id_garbage,glyph-ID garbage (/gidNNNNN): unreadable map text,0,1,280
+Column,has_page_ref,page reference missing (traceability),0,0,13
+Column,glyph_id_garbage,glyph-ID garbage (/gidNNNNN): unreadable map text,0,1,279
+Column,glyph_id_garbage,glyph-ID garbage (/gidNNNNN): unreadable map text,0,1,278
+Column,glyph_id_garbage,glyph-ID garbage (/gidNNNNN): unreadable map text,0,1,277
+Column,glyph_id_garbage,glyph-ID garbage (/gidNNNNN): unreadable map text,0,1,276
+Column,glyph_id_garbage,glyph-ID garbage (/gidNNNNN): unreadable map text,0,1,275
+Column,glyph_id_garbage,glyph-ID garbage (/gidNNNNN): unreadable map text,0,1,274
+Column,glyph_id_garbage,glyph-ID garbage (/gidNNNNN): unreadable map text,0,1,273
+Column,glyph_id_garbage,glyph-ID garbage (/gidNNNNN): unreadable map text,0,1,272
+Column,glyph_id_garbage,glyph-ID garbage (/gidNNNNN): unreadable map text,0,1,271
+Column,glyph_id_garbage,glyph-ID garbage (/gidNNNNN): unreadable map text,0,1,270
+Column,glyph_id_garbage,glyph-ID garbage (/gidNNNNN): unreadable map text,0,1,269
+Column,glyph_id_garbage,glyph-ID garbage (/gidNNNNN): unreadable map text,0,1,268
+Column,glyph_id_garbage,glyph-ID garbage (/gidNNNNN): unreadable map text,0,1,267
+Column,has_page_ref,page reference missing (traceability),0,0,12
+Column,has_page_ref,page reference missing (traceability),0,0,14
+Column,glyph_id_garbage,glyph-ID garbage (/gidNNNNN): unreadable map text,0,1,265
+Column,has_page_ref,page reference missing (traceability),0,0,30
+Column,has_page_ref,page reference missing (traceability),0,0,43
+Column,has_page_ref,page reference missing (traceability),0,0,42
+Column,has_page_ref,page reference missing (traceability),0,0,41
+Column,has_page_ref,page reference missing (traceability),0,0,40
+Column,has_page_ref,page reference missing (traceability),0,0,39
+Column,has_page_ref,page reference missing (traceability),0,0,38
+Column,has_page_ref,page reference missing (traceability),0,0,37
+Column,has_page_ref,page reference missing (traceability),0,0,36
+Column,has_page_ref,page reference missing (traceability),0,0,35
+Column,has_page_ref,page reference missing (traceability),0,0,34
+Column,has_page_ref,page reference missing (traceability),0,0,33
+Column,has_page_ref,page reference missing (traceability),0,0,32
+Column,has_page_ref,page reference missing (traceability),0,0,31
+Column,has_page_ref,page reference missing (traceability),0,0,29
+Column,has_page_ref,page reference missing (traceability),0,0,15
+Column,has_page_ref,page reference missing (traceability),0,0,28
+Column,has_page_ref,page reference missing (traceability),0,0,27
+Column,has_page_ref,page reference missing (traceability),0,0,26
+Column,has_page_ref,page reference missing (traceability),0,0,25
+Column,has_page_ref,page reference missing (traceability),0,0,24
+Column,has_page_ref,page reference missing (traceability),0,0,23
+Column,has_page_ref,page reference missing (traceability),0,0,22
+Column,has_page_ref,page reference missing (traceability),0,0,21
+Column,has_page_ref,page reference missing (traceability),0,0,20
+Column,has_page_ref,page reference missing (traceability),0,0,19
+Column,has_page_ref,page reference missing (traceability),0,0,18
+Column,has_page_ref,page reference missing (traceability),0,0,17
+Column,has_page_ref,page reference missing (traceability),0,0,16
+Column,glyph_id_garbage,glyph-ID garbage (/gidNNNNN): unreadable map text,0,1,266
+Column,glyph_id_garbage,glyph-ID garbage (/gidNNNNN): unreadable map text,0,1,264
+Column,has_ligature_artefact,PDF ligature artefact (/f_ or U+FB00-FB06),0,1,198
+Column,has_ligature_artefact,PDF ligature artefact (/f_ or U+FB00-FB06),0,1,223
+Column,glyph_id_garbage,glyph-ID garbage (/gidNNNNN): unreadable map text,0,1,230
+Column,glyph_id_garbage,glyph-ID garbage (/gidNNNNN): unreadable map text,0,1,229
+Column,glyph_id_garbage,glyph-ID garbage (/gidNNNNN): unreadable map text,0,1,228
+Column,has_ligature_artefact,PDF ligature artefact (/f_ or U+FB00-FB06),0,1,300
+Column,has_ligature_artefact,PDF ligature artefact (/f_ or U+FB00-FB06),0,1,295
+Column,has_ligature_artefact,PDF ligature artefact (/f_ or U+FB00-FB06),0,1,294
+Column,has_ligature_artefact,PDF ligature artefact (/f_ or U+FB00-FB06),0,1,293
+Column,has_ligature_artefact,PDF ligature artefact (/f_ or U+FB00-FB06),0,1,292
+Column,has_ligature_artefact,PDF ligature artefact (/f_ or U+FB00-FB06),0,1,287
+Column,has_ligature_artefact,PDF ligature artefact (/f_ or U+FB00-FB06),0,1,285
+Column,has_ligature_artefact,PDF ligature artefact (/f_ or U+FB00-FB06),0,1,226
+Column,has_ligature_artefact,PDF ligature artefact (/f_ or U+FB00-FB06),0,1,225
+Column,has_ligature_artefact,PDF ligature artefact (/f_ or U+FB00-FB06),0,1,224
+Column,has_ligature_artefact,PDF ligature artefact (/f_ or U+FB00-FB06),0,1,221
+Column,glyph_id_garbage,glyph-ID garbage (/gidNNNNN): unreadable map text,0,1,232
+Column,has_ligature_artefact,PDF ligature artefact (/f_ or U+FB00-FB06),0,1,220
+Column,has_ligature_artefact,PDF ligature artefact (/f_ or U+FB00-FB06),0,1,219
+Column,has_ligature_artefact,PDF ligature artefact (/f_ or U+FB00-FB06),0,1,218
+Column,has_ligature_artefact,PDF ligature artefact (/f_ or U+FB00-FB06),0,1,215
+Column,has_ligature_artefact,PDF ligature artefact (/f_ or U+FB00-FB06),0,1,213
+Column,has_ligature_artefact,PDF ligature artefact (/f_ or U+FB00-FB06),0,1,212
+Column,has_ligature_artefact,PDF ligature artefact (/f_ or U+FB00-FB06),0,1,209
+Column,has_ligature_artefact,PDF ligature artefact (/f_ or U+FB00-FB06),0,1,206
+Column,has_ligature_artefact,PDF ligature artefact (/f_ or U+FB00-FB06),0,1,203
+Column,has_ligature_artefact,PDF ligature artefact (/f_ or U+FB00-FB06),0,1,202
+Column,has_ligature_artefact,PDF ligature artefact (/f_ or U+FB00-FB06),0,1,201
+Column,has_ligature_artefact,PDF ligature artefact (/f_ or U+FB00-FB06),0,1,200
+Column,has_ligature_artefact,PDF ligature artefact (/f_ or U+FB00-FB06),0,1,199
+Column,glyph_id_garbage,glyph-ID garbage (/gidNNNNN): unreadable map text,0,1,231
+Column,glyph_id_garbage,glyph-ID garbage (/gidNNNNN): unreadable map text,0,1,233
+Column,glyph_id_garbage,glyph-ID garbage (/gidNNNNN): unreadable map text,0,1,263
+Column,glyph_id_garbage,glyph-ID garbage (/gidNNNNN): unreadable map text,0,1,249
+Column,glyph_id_garbage,glyph-ID garbage (/gidNNNNN): unreadable map text,0,1,262
+Column,glyph_id_garbage,glyph-ID garbage (/gidNNNNN): unreadable map text,0,1,261
+Column,glyph_id_garbage,glyph-ID garbage (/gidNNNNN): unreadable map text,0,1,260
+Column,glyph_id_garbage,glyph-ID garbage (/gidNNNNN): unreadable map text,0,1,259
+Column,glyph_id_garbage,glyph-ID garbage (/gidNNNNN): unreadable map text,0,1,258
+Column,glyph_id_garbage,glyph-ID garbage (/gidNNNNN): unreadable map text,0,1,257
+Column,glyph_id_garbage,glyph-ID garbage (/gidNNNNN): unreadable map text,0,1,256
+Column,glyph_id_garbage,glyph-ID garbage (/gidNNNNN): unreadable map text,0,1,255
+Column,glyph_id_garbage,glyph-ID garbage (/gidNNNNN): unreadable map text,0,1,254
+Column,glyph_id_garbage,glyph-ID garbage (/gidNNNNN): unreadable map text,0,1,253
+Column,glyph_id_garbage,glyph-ID garbage (/gidNNNNN): unreadable map text,0,1,252
+Column,glyph_id_garbage,glyph-ID garbage (/gidNNNNN): unreadable map text,0,1,251
+Column,glyph_id_garbage,glyph-ID garbage (/gidNNNNN): unreadable map text,0,1,250
+Column,glyph_id_garbage,glyph-ID garbage (/gidNNNNN): unreadable map text,0,1,248
+Column,glyph_id_garbage,glyph-ID garbage (/gidNNNNN): unreadable map text,0,1,234
+Column,glyph_id_garbage,glyph-ID garbage (/gidNNNNN): unreadable map text,0,1,247
+Column,glyph_id_garbage,glyph-ID garbage (/gidNNNNN): unreadable map text,0,1,246
+Column,glyph_id_garbage,glyph-ID garbage (/gidNNNNN): unreadable map text,0,1,245
+Column,glyph_id_garbage,glyph-ID garbage (/gidNNNNN): unreadable map text,0,1,244
+Column,glyph_id_garbage,glyph-ID garbage (/gidNNNNN): unreadable map text,0,1,243
+Column,glyph_id_garbage,glyph-ID garbage (/gidNNNNN): unreadable map text,0,1,242
+Column,glyph_id_garbage,glyph-ID garbage (/gidNNNNN): unreadable map text,0,1,241
+Column,glyph_id_garbage,glyph-ID garbage (/gidNNNNN): unreadable map text,0,1,240
+Column,glyph_id_garbage,glyph-ID garbage (/gidNNNNN): unreadable map text,0,1,239
+Column,glyph_id_garbage,glyph-ID garbage (/gidNNNNN): unreadable map text,0,1,238
+Column,glyph_id_garbage,glyph-ID garbage (/gidNNNNN): unreadable map text,0,1,237
+Column,glyph_id_garbage,glyph-ID garbage (/gidNNNNN): unreadable map text,0,1,236
+Column,glyph_id_garbage,glyph-ID garbage (/gidNNNNN): unreadable map text,0,1,235
+Column,has_page_ref,page reference missing (traceability),0,0,302
