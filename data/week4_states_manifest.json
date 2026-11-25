@@ -1,5 +1,5 @@
 {
-  "created": "2026-11-25",
+  "created": "2026-11-24",
   "method": "paragraph-aware-char-500 (+map-label-filter for map guides)",
   "sources": [
     {
@@ -8,7 +8,7 @@
       "state": "Melaka",
       "pages": "53-63",
       "kind": "guide-chapter",
-      "chars": 15617,
+      "chars": 15620,
       "glyph_id_codes": 0,
       "ligature_artefacts": 0,
       "pdf_modified": "20250528",
@@ -20,7 +20,7 @@
       "state": "Penang",
       "pages": "89-99",
       "kind": "guide-chapter",
-      "chars": 17573,
+      "chars": 17575,
       "glyph_id_codes": 0,
       "ligature_artefacts": 0,
       "pdf_modified": "20250528",
@@ -32,7 +32,7 @@
       "state": "Sabah",
       "pages": "159-179",
       "kind": "guide-chapter",
-      "chars": 21164,
+      "chars": 21165,
       "glyph_id_codes": 0,
       "ligature_artefacts": 1,
       "pdf_modified": "20250528",
@@ -44,7 +44,7 @@
       "state": "Penang",
       "pages": "1-2",
       "kind": "map-guide",
-      "chars": 39435,
+      "chars": 39446,
       "glyph_id_codes": 0,
       "ligature_artefacts": 6,
       "pdf_modified": "20240314",
@@ -56,7 +56,7 @@
       "state": "Melaka",
       "pages": "1-2",
       "kind": "map-guide",
-      "chars": 30276,
+      "chars": 30277,
       "glyph_id_codes": 0,
       "ligature_artefacts": 1,
       "pdf_modified": "20240208",
@@ -68,7 +68,7 @@
       "state": "Sabah",
       "pages": "1-2",
       "kind": "map-guide",
-      "chars": 33056,
+      "chars": 33058,
       "glyph_id_codes": 0,
       "ligature_artefacts": 8,
       "pdf_modified": "20240221",
@@ -77,10 +77,10 @@
   ],
   "removed": 8,
   "new_chunks_kept": 262,
-  "kl_chunks": 503,
-  "corpus_v2_chunks": 571,
+  "kl_chunks": 247,
+  "corpus_v2_chunks": 503,
   "outputs": {
-    "data/processed/prepared_text_states.jsonl": "4089e33e27f93c34e2e5cd0288fd0387e4ebfaa48b7402d5da535482db85c341",
-    "data/prepared_chunks_clean_v2.jsonl": "e15aa1c1578b2ddbf64fd1a03c1b6dc1cd93f87fe2e78c6a77166505d422ee34"
+    "data/processed/prepared_text_states.jsonl": "23fc9c518e19c65629acc6a39f8e6cd56ecd21e83fe8f0e1a071ab641a0d3237",
+    "data/prepared_chunks_clean_v2.jsonl": "851f4e2e56d43cd95b56f5f1da64b5728e44696d777e62baa4c9042566041dd1"
   }
 }
