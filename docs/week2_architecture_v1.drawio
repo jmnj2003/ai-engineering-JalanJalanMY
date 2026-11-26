@@ -1,0 +1,167 @@
+<mxfile host="app.diagrams.net">
+  <diagram id="jjmy-v1" name="JalanJalanMY V1 Architecture">
+    <mxGraphModel dx="1500" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1500" pageHeight="880" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+
+        <mxCell id="title" value="&lt;b&gt;JalanJalanMY — V1 Conceptual Architecture&lt;/b&gt;" style="text;html=1;fillColor=none;strokeColor=none;fontColor=#222222;fontSize=18;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="20" y="0" width="700" height="30" as="geometry"/>
+        </mxCell>
+
+        <!-- Interaction row -->
+        <mxCell id="user" value="&lt;b&gt;👤 User&lt;/b&gt;&lt;br&gt;Tourist planning&lt;br&gt;a 1–5 day trip" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=11;fontColor=#222222;" vertex="1" parent="1">
+          <mxGeometry x="20" y="125" width="100" height="70" as="geometry"/>
+        </mxCell>
+        <mxCell id="ui" value="&lt;b&gt;Application Interface&lt;/b&gt;&lt;br&gt;Chat + itinerary view&lt;br&gt;&lt;font color=&quot;#555555&quot;&gt;FR1, FR5, FR7&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=11;fontColor=#222222;" vertex="1" parent="1">
+          <mxGeometry x="190" y="120" width="170" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="scope" value="&lt;b&gt;Scope / Safety Control&lt;/b&gt;&lt;br&gt;Decline bookings, visas,&lt;br&gt;flights, medical, non-MY&lt;br&gt;&lt;font color=&quot;#555555&quot;&gt;FR6, RAI3&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=11;fontColor=#222222;" vertex="1" parent="1">
+          <mxGeometry x="460" y="120" width="170" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="agent" value="&lt;b&gt;Preference Agent&lt;/b&gt;&lt;br&gt;Language Model Service&lt;br&gt;Asks only missing details,&lt;br&gt;collects existing bookings,&lt;br&gt;confirms trip summary&lt;br&gt;&lt;font color=&quot;#555555&quot;&gt;FR1, FR5, FR9, RAI6, RAI8&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;fontColor=#222222;" vertex="1" parent="1">
+          <mxGeometry x="730" y="105" width="180" height="105" as="geometry"/>
+        </mxCell>
+        <mxCell id="out" value="&lt;b&gt;Output: Verified Itinerary&lt;/b&gt;&lt;br&gt;Day-by-day stops, times, travel legs,&lt;br&gt;hours, fees, source + last-checked date,&lt;br&gt;&quot;verify before visiting&quot; notice,&lt;br&gt;train/bus times + official ticket link (user buys)&lt;br&gt;&lt;font color=&quot;#555555&quot;&gt;FR2, FR3, FR7, FR8, RAI4, RAI7&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=11;fontColor=#222222;" vertex="1" parent="1">
+          <mxGeometry x="1180" y="105" width="270" height="100" as="geometry"/>
+        </mxCell>
+
+        <!-- Planning row -->
+        <mxCell id="ka" value="&lt;b&gt;Knowledge Access&lt;/b&gt;&lt;br&gt;Official picks + popular places&lt;br&gt;around must-visit places,&lt;br&gt;matching interests, group, budget&lt;br&gt;&lt;font color=&quot;#555555&quot;&gt;FR3, FR9, NFR2&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;fontColor=#222222;" vertex="1" parent="1">
+          <mxGeometry x="740" y="310" width="170" height="100" as="geometry"/>
+        </mxCell>
+        <mxCell id="gen" value="&lt;b&gt;Itinerary Generator&lt;/b&gt;&lt;br&gt;Language Model Service&lt;br&gt;Drafts day-by-day plan from&lt;br&gt;retrieved places only,&lt;br&gt;around fixed bookings&lt;br&gt;&lt;font color=&quot;#555555&quot;&gt;FR2, FR5, FR9&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;fontColor=#222222;" vertex="1" parent="1">
+          <mxGeometry x="990" y="305" width="170" height="105" as="geometry"/>
+        </mxCell>
+        <mxCell id="chk" value="&lt;b&gt;Constraint Checker&lt;/b&gt;&lt;br&gt;Rule-based: opening hours,&lt;br&gt;travel time, budget, driving cap,&lt;br&gt;user bookings + buffers,&lt;br&gt;stops exist in knowledge source&lt;br&gt;or place-data service&lt;br&gt;&lt;font color=&quot;#555555&quot;&gt;FR4, FR8, FR9, NFR3, RAI1, RAI3, RAI8&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=11;fontColor=#222222;" vertex="1" parent="1">
+          <mxGeometry x="1240" y="305" width="210" height="110" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="pds" value="&lt;b&gt;Place-Data Service&lt;/b&gt;&lt;br&gt;(external)&lt;br&gt;Popular, highly rated places:&lt;br&gt;rating, reviews, live hours;&lt;br&gt;only place ID stored&lt;br&gt;&lt;font color=&quot;#555555&quot;&gt;FR3, RAI1&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;dashed=1;fontSize=11;fontColor=#222222;" vertex="1" parent="1">
+          <mxGeometry x="470" y="305" width="190" height="105" as="geometry"/>
+        </mxCell>
+        <mxCell id="d8" value="popular places&lt;br&gt;+ ratings" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;fontSize=10;labelBackgroundColor=#ffffff;fontColor=#333333;" edge="1" parent="1" source="pds" target="ka">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <!-- Data row -->
+        <mxCell id="src" value="&lt;b&gt;Official Tourism Sources&lt;/b&gt;&lt;br&gt;Tourism Malaysia + state&lt;br&gt;tourism bodies (PDFs, pages)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;fontColor=#222222;" vertex="1" parent="1">
+          <mxGeometry x="200" y="520" width="170" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="ing" value="&lt;b&gt;Source Ingestion &amp;amp; Fact Extraction&lt;/b&gt;&lt;br&gt;Offline: hours, closed days, fees,&lt;br&gt;duration, location, last-checked date&lt;br&gt;&lt;font color=&quot;#555555&quot;&gt;NFR2, NFR5, RAI4&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;fontColor=#222222;" vertex="1" parent="1">
+          <mxGeometry x="470" y="515" width="200" height="90" as="geometry"/>
+        </mxCell>
+        <mxCell id="kb" value="&lt;b&gt;Knowledge Source&lt;/b&gt;&lt;br&gt;Structured attraction facts&lt;br&gt;+ searchable descriptions&lt;br&gt;&lt;font color=&quot;#555555&quot;&gt;FR3, RAI1&lt;/font&gt;" style="shape=cylinder;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;fontColor=#222222;" vertex="1" parent="1">
+          <mxGeometry x="740" y="510" width="160" height="100" as="geometry"/>
+        </mxCell>
+        <mxCell id="route" value="&lt;b&gt;Routing Service&lt;/b&gt;&lt;br&gt;(external)&lt;br&gt;Travel time and distance,&lt;br&gt;within and across states&lt;br&gt;&lt;font color=&quot;#555555&quot;&gt;FR4, NFR3, RAI3&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;dashed=1;fontSize=11;fontColor=#222222;" vertex="1" parent="1">
+          <mxGeometry x="1250" y="515" width="190" height="90" as="geometry"/>
+        </mxCell>
+        <mxCell id="eval" value="&lt;b&gt;Evaluation Point&lt;/b&gt;&lt;br&gt;Logs latency, cost, violations,&lt;br&gt;per-state results (no personal data)&lt;br&gt;&lt;font color=&quot;#555555&quot;&gt;NFR1, NFR4, RAI2, RAI5&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;dashed=1;fontSize=11;fontColor=#222222;" vertex="1" parent="1">
+          <mxGeometry x="960" y="680" width="210" height="80" as="geometry"/>
+        </mxCell>
+
+        <!-- Interaction flows -->
+        <mxCell id="f1" value="request" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;fontSize=10;labelBackgroundColor=#ffffff;fontColor=#333333;" edge="1" parent="1" source="user" target="ui">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="f2" value="user message" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;fontSize=10;labelBackgroundColor=#ffffff;fontColor=#333333;" edge="1" parent="1" source="ui" target="scope">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="f3" value="in-scope&lt;br&gt;message" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;fontSize=10;labelBackgroundColor=#ffffff;fontColor=#333333;" edge="1" parent="1" source="scope" target="agent">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="f4" value="decline + redirect" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;dashed=1;fontSize=10;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;labelBackgroundColor=#ffffff;fontColor=#333333;" edge="1" parent="1" source="scope" target="ui">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points"><mxPoint x="545" y="240"/><mxPoint x="317" y="240"/></Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f5" value="follow-up question / trip summary to confirm" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;fontSize=10;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=#ffffff;fontColor=#333333;" edge="1" parent="1" source="agent" target="ui">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points"><mxPoint x="820" y="80"/><mxPoint x="275" y="80"/></Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f6" value="confirmed trip request&lt;br&gt;+ fixed bookings" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;fontSize=10;labelBackgroundColor=#ffffff;fontColor=#333333;" edge="1" parent="1" source="agent" target="ka">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="f7" value="candidate&lt;br&gt;places" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;fontSize=10;labelBackgroundColor=#ffffff;fontColor=#333333;" edge="1" parent="1" source="ka" target="gen">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="f8" value="draft&lt;br&gt;plan" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;fontSize=10;exitX=1;exitY=0.3;exitDx=0;exitDy=0;entryX=0;entryY=0.3;entryDx=0;entryDy=0;labelBackgroundColor=#ffffff;fontColor=#333333;" edge="1" parent="1" source="gen" target="chk">
+          <mxGeometry relative="1" as="geometry"><mxPoint y="-16" as="offset"/></mxGeometry>
+        </mxCell>
+        <mxCell id="f9" value="revise&lt;br&gt;(≤ 3 tries)" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;dashed=1;fontSize=10;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;labelBackgroundColor=#ffffff;fontColor=#333333;" edge="1" parent="1" source="chk" target="gen">
+          <mxGeometry relative="1" as="geometry"><mxPoint y="16" as="offset"/></mxGeometry>
+        </mxCell>
+        <mxCell id="f10" value="valid plan (or plan with&lt;br&gt;flagged violations)" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;fontSize=10;labelBackgroundColor=#ffffff;fontColor=#333333;" edge="1" parent="1" source="chk" target="out">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="f11" value="itinerary shown to user" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;fontSize=10;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=#ffffff;fontColor=#333333;" edge="1" parent="1" source="out" target="ui">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points"><mxPoint x="1335" y="45"/><mxPoint x="232" y="45"/></Array>
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Data flows -->
+        <mxCell id="d1" value="raw docs" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;fontSize=10;labelBackgroundColor=#ffffff;fontColor=#333333;" edge="1" parent="1" source="src" target="ing">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="d2" value="facts +&lt;br&gt;dates" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;fontSize=10;labelBackgroundColor=#ffffff;fontColor=#333333;" edge="1" parent="1" source="ing" target="kb">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="d3" value="matching facts" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;fontSize=10;labelBackgroundColor=#ffffff;fontColor=#333333;" edge="1" parent="1" source="kb" target="ka">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="d4" value="stops to route" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;fontSize=10;exitX=0.3;exitY=1;exitDx=0;exitDy=0;entryX=0.3;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=#ffffff;fontColor=#333333;" edge="1" parent="1" source="chk" target="route">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="d5" value="travel times" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;fontSize=10;exitX=0.7;exitY=0;exitDx=0;exitDy=0;entryX=0.7;entryY=1;entryDx=0;entryDy=0;labelBackgroundColor=#ffffff;fontColor=#333333;" edge="1" parent="1" source="route" target="chk">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="d6" value="existence check" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;dashed=1;fontSize=10;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.1;entryY=1;entryDx=0;entryDy=0;labelBackgroundColor=#ffffff;fontColor=#333333;" edge="1" parent="1" source="kb" target="chk">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points"><mxPoint x="950" y="560"/><mxPoint x="950" y="470"/><mxPoint x="1269" y="470"/></Array>
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Evaluation links -->
+        <mxCell id="v1" value="logs" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;dashed=1;strokeColor=#9673a6;fontSize=10;fontColor=#9673a6;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.3;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="gen" target="eval">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="v2" value="logs" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;dashed=1;strokeColor=#9673a6;fontSize=10;fontColor=#9673a6;exitX=0;exitY=0.85;exitDx=0;exitDy=0;entryX=0.85;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="route" target="eval">
+          <mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="1138" y="591"/></Array></mxGeometry>
+        </mxCell>
+
+
+        <mxCell id="tt" value="&lt;b&gt;Public Transport Timetables&lt;/b&gt;&lt;br&gt;(official open data, external)&lt;br&gt;KTM, rail and bus schedules;&lt;br&gt;no fares or seat availability&lt;br&gt;&lt;font color=&quot;#555555&quot;&gt;FR8, RAI7&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;dashed=1;fontSize=11;fontColor=#222222;" vertex="1" parent="1">
+          <mxGeometry x="1250" y="660" width="190" height="95" as="geometry"/>
+        </mxCell>
+        <mxCell id="d7" value="departure /&lt;br&gt;arrival times" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;fontSize=10;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=#ffffff;fontColor=#333333;" edge="1" parent="1" source="tt" target="chk">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points"><mxPoint x="1470" y="707"/><mxPoint x="1470" y="360"/></Array>
+          </mxGeometry>
+        </mxCell>
+
+        <mxCell id="web" value="&lt;b&gt;Web Search Service&lt;/b&gt;&lt;br&gt;(external, paid / capped)&lt;br&gt;returns pages + text&lt;br&gt;&lt;font color=&quot;#555555&quot;&gt;FR10, NFR4&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;dashed=1;fontSize=11;fontColor=#222222;" vertex="1" parent="1">
+          <mxGeometry x="200" y="665" width="170" height="90" as="geometry"/>
+        </mxCell>
+        <mxCell id="fee" value="&lt;b&gt;Fee-Research Agent&lt;/b&gt;&lt;br&gt;Offline batch · Language Model&lt;br&gt;official domains only; saves&lt;br&gt;fee + URL + quote + date;&lt;br&gt;human spot-check before use&lt;br&gt;&lt;font color=&quot;#555555&quot;&gt;FR10, RAI9&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;fontColor=#222222;" vertex="1" parent="1">
+          <mxGeometry x="460" y="655" width="220" height="110" as="geometry"/>
+        </mxCell>
+        <mxCell id="w1" value="search query" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;fontSize=10;labelBackgroundColor=#ffffff;fontColor=#333333;exitX=0;exitY=0.3;exitDx=0;exitDy=0;entryX=1;entryY=0.3;entryDx=0;entryDy=0;" edge="1" parent="1" source="fee" target="web">
+          <mxGeometry relative="1" as="geometry"><mxPoint y="-10" as="offset"/></mxGeometry>
+        </mxCell>
+        <mxCell id="w2" value="pages" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;fontSize=10;labelBackgroundColor=#ffffff;fontColor=#333333;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="web" target="fee">
+          <mxGeometry relative="1" as="geometry"><mxPoint y="10" as="offset"/></mxGeometry>
+        </mxCell>
+        <mxCell id="w3" value="verified fee table" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;fontSize=10;labelBackgroundColor=#ffffff;fontColor=#333333;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="fee" target="kb">
+          <mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="820" y="710"/></Array></mxGeometry>
+        </mxCell>
+        <!-- Legend -->
+        <mxCell id="legend" value="&lt;b&gt;Legend:&lt;/b&gt; Grey = interface / output | Blue = AI capability (language model, knowledge access) | Orange = control (scope, constraint checking) | Green = data / knowledge | Yellow dashed = external service | Purple dashed = evaluation point&lt;br&gt;Small grey text in each box = requirement IDs that justify the component (see week2_requirements.md). Dashed arrows = conditional or monitoring flows. Components are labelled by function; technologies are chosen in later topics." style="text;html=1;fillColor=none;fontColor=#222222;whiteSpace=wrap;fontSize=10;align=left;verticalAlign=top;strokeColor=#999999;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="20" y="795" width="1430" height="50" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
