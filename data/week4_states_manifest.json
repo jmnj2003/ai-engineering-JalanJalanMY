@@ -1,5 +1,5 @@
 {
-  "created": "2026-11-24",
+  "created": "2026-11-27",
   "method": "paragraph-aware-char-500 (+map-label-filter for map guides)",
   "sources": [
     {
@@ -73,14 +73,158 @@
       "ligature_artefacts": 8,
       "pdf_modified": "20240221",
       "sha256": "f90bfc87175d"
+    },
+    {
+      "source_id": "S09",
+      "file": "MTG_2023.pdf",
+      "state": "Selangor",
+      "pages": "23-31",
+      "kind": "guide-chapter",
+      "chars": 15021,
+      "glyph_id_codes": 0,
+      "ligature_artefacts": 5,
+      "pdf_modified": "20250528",
+      "sha256": "7b1830e31301"
+    },
+    {
+      "source_id": "S10",
+      "file": "MTG_2023.pdf",
+      "state": "Putrajaya",
+      "pages": "33-40",
+      "kind": "guide-chapter",
+      "chars": 12859,
+      "glyph_id_codes": 0,
+      "ligature_artefacts": 5,
+      "pdf_modified": "20250528",
+      "sha256": "7b1830e31301"
+    },
+    {
+      "source_id": "S11",
+      "file": "MTG_2023.pdf",
+      "state": "Negeri Sembilan",
+      "pages": "43-51",
+      "kind": "guide-chapter",
+      "chars": 11962,
+      "glyph_id_codes": 0,
+      "ligature_artefacts": 0,
+      "pdf_modified": "20250528",
+      "sha256": "7b1830e31301"
+    },
+    {
+      "source_id": "S12",
+      "file": "MTG_2023.pdf",
+      "state": "Johor",
+      "pages": "65-76",
+      "kind": "guide-chapter",
+      "chars": 17894,
+      "glyph_id_codes": 0,
+      "ligature_artefacts": 0,
+      "pdf_modified": "20250528",
+      "sha256": "7b1830e31301"
+    },
+    {
+      "source_id": "S13",
+      "file": "MTG_2023.pdf",
+      "state": "Perak",
+      "pages": "79-87",
+      "kind": "guide-chapter",
+      "chars": 13674,
+      "glyph_id_codes": 0,
+      "ligature_artefacts": 0,
+      "pdf_modified": "20250528",
+      "sha256": "7b1830e31301"
+    },
+    {
+      "source_id": "S14",
+      "file": "MTG_2023.pdf",
+      "state": "Kedah",
+      "pages": "101-111",
+      "kind": "guide-chapter",
+      "chars": 17243,
+      "glyph_id_codes": 0,
+      "ligature_artefacts": 0,
+      "pdf_modified": "20250528",
+      "sha256": "7b1830e31301"
+    },
+    {
+      "source_id": "S15",
+      "file": "MTG_2023.pdf",
+      "state": "Perlis",
+      "pages": "113-118",
+      "kind": "guide-chapter",
+      "chars": 8886,
+      "glyph_id_codes": 0,
+      "ligature_artefacts": 0,
+      "pdf_modified": "20250528",
+      "sha256": "7b1830e31301"
+    },
+    {
+      "source_id": "S16",
+      "file": "MTG_2023.pdf",
+      "state": "Pahang",
+      "pages": "121-131",
+      "kind": "guide-chapter",
+      "chars": 15679,
+      "glyph_id_codes": 0,
+      "ligature_artefacts": 0,
+      "pdf_modified": "20250528",
+      "sha256": "7b1830e31301"
+    },
+    {
+      "source_id": "S17",
+      "file": "MTG_2023.pdf",
+      "state": "Terengganu",
+      "pages": "133-145",
+      "kind": "guide-chapter",
+      "chars": 15492,
+      "glyph_id_codes": 0,
+      "ligature_artefacts": 0,
+      "pdf_modified": "20250528",
+      "sha256": "7b1830e31301"
+    },
+    {
+      "source_id": "S18",
+      "file": "MTG_2023.pdf",
+      "state": "Kelantan",
+      "pages": "147-158",
+      "kind": "guide-chapter",
+      "chars": 15946,
+      "glyph_id_codes": 0,
+      "ligature_artefacts": 0,
+      "pdf_modified": "20250528",
+      "sha256": "7b1830e31301"
+    },
+    {
+      "source_id": "S19",
+      "file": "MTG_2023.pdf",
+      "state": "Sarawak",
+      "pages": "181-195",
+      "kind": "guide-chapter",
+      "chars": 19952,
+      "glyph_id_codes": 0,
+      "ligature_artefacts": 0,
+      "pdf_modified": "20250528",
+      "sha256": "7b1830e31301"
+    },
+    {
+      "source_id": "S20",
+      "file": "MTG_2023.pdf",
+      "state": "Labuan",
+      "pages": "197-205",
+      "kind": "guide-chapter",
+      "chars": 10207,
+      "glyph_id_codes": 0,
+      "ligature_artefacts": 0,
+      "pdf_modified": "20250528",
+      "sha256": "7b1830e31301"
     }
   ],
-  "removed": 8,
-  "new_chunks_kept": 262,
+  "removed": 24,
+  "new_chunks_kept": 654,
   "kl_chunks": 247,
-  "corpus_v2_chunks": 503,
+  "corpus_v2_chunks": 895,
   "outputs": {
-    "data/processed/prepared_text_states.jsonl": "23fc9c518e19c65629acc6a39f8e6cd56ecd21e83fe8f0e1a071ab641a0d3237",
-    "data/prepared_chunks_clean_v2.jsonl": "851f4e2e56d43cd95b56f5f1da64b5728e44696d777e62baa4c9042566041dd1"
+    "data/processed/prepared_text_states.jsonl": "14b0d92e940fb3715076e1d3f69189f8a40de92618d190677f8b13f5a4f89cfa",
+    "data/prepared_chunks_clean_v2.jsonl": "1586d124e47df58b02573f2f195168ee39e6b76a8aec3b06fecb427a2b3255fa"
   }
 }

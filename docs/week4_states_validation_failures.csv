@@ -1,19 +1,61 @@
 schema_context,column,check,check_number,failure_case,index
 Column,char_count,char_count >= 100 (shorter than one sentence),0,1,19
 Column,char_count,char_count >= 100 (shorter than one sentence),0,30,37
-Column,has_ligature_artefact,PDF ligature artefact (/f_ or U+FB00-FB06),0,1,239
-Column,has_ligature_artefact,PDF ligature artefact (/f_ or U+FB00-FB06),0,1,224
-Column,has_ligature_artefact,PDF ligature artefact (/f_ or U+FB00-FB06),0,1,217
+Column,char_count,char_count >= 100 (shorter than one sentence),0,42,509
+Column,char_count,char_count >= 100 (shorter than one sentence),0,89,535
+Column,char_count,char_count >= 100 (shorter than one sentence),0,30,538
+Column,char_count,char_count >= 100 (shorter than one sentence),0,81,568
+Column,char_count,char_count >= 100 (shorter than one sentence),0,97,583
+Column,char_count,char_count >= 100 (shorter than one sentence),0,53,585
+Column,char_count,char_count >= 100 (shorter than one sentence),0,26,588
+Column,char_count,char_count >= 100 (shorter than one sentence),0,29,602
+Column,char_count,char_count >= 100 (shorter than one sentence),0,95,627
+Column,char_count,char_count >= 100 (shorter than one sentence),0,30,646
+Column,char_count,char_count >= 100 (shorter than one sentence),0,46,661
+Column,char_count,char_count >= 100 (shorter than one sentence),0,74,670
+Column,char_count,char_count >= 100 (shorter than one sentence),0,94,677
 Column,has_ligature_artefact,PDF ligature artefact (/f_ or U+FB00-FB06),0,1,76
-Column,char_count,char_count >= 100 (shorter than one sentence),0,80,196
-Column,char_count,char_count >= 100 (shorter than one sentence),0,10,106
-Column,char_count,char_count >= 100 (shorter than one sentence),0,88,103
-Column,char_count,char_count >= 100 (shorter than one sentence),0,83,98
-Column,char_count,char_count >= 100 (shorter than one sentence),0,10,87
-Column,char_count,char_count >= 100 (shorter than one sentence),0,45,84
-Column,char_count,char_count >= 100 (shorter than one sentence),0,3,82
-Column,char_count,char_count >= 100 (shorter than one sentence),0,27,78
-Column,char_count,char_count >= 100 (shorter than one sentence),0,48,77
-Column,char_count,char_count >= 100 (shorter than one sentence),0,23,61
-Column,char_count,char_count >= 100 (shorter than one sentence),0,21,46
+Column,has_ligature_artefact,PDF ligature artefact (/f_ or U+FB00-FB06),0,1,217
+Column,has_ligature_artefact,PDF ligature artefact (/f_ or U+FB00-FB06),0,1,224
+Column,has_ligature_artefact,PDF ligature artefact (/f_ or U+FB00-FB06),0,1,239
 Column,has_ligature_artefact,PDF ligature artefact (/f_ or U+FB00-FB06),0,1,240
+Column,has_ligature_artefact,PDF ligature artefact (/f_ or U+FB00-FB06),0,1,270
+Column,has_ligature_artefact,PDF ligature artefact (/f_ or U+FB00-FB06),0,1,271
+Column,has_ligature_artefact,PDF ligature artefact (/f_ or U+FB00-FB06),0,1,275
+Column,has_ligature_artefact,PDF ligature artefact (/f_ or U+FB00-FB06),0,1,288
+Column,has_ligature_artefact,PDF ligature artefact (/f_ or U+FB00-FB06),0,1,302
+Column,has_ligature_artefact,PDF ligature artefact (/f_ or U+FB00-FB06),0,1,305
+Column,has_ligature_artefact,PDF ligature artefact (/f_ or U+FB00-FB06),0,1,309
+Column,has_ligature_artefact,PDF ligature artefact (/f_ or U+FB00-FB06),0,1,314
+Column,has_ligature_artefact,PDF ligature artefact (/f_ or U+FB00-FB06),0,1,317
+Column,char_count,char_count >= 100 (shorter than one sentence),0,99,499
+Column,char_count,char_count >= 100 (shorter than one sentence),0,74,497
+Column,char_count,char_count >= 100 (shorter than one sentence),0,15,488
+Column,char_count,char_count >= 100 (shorter than one sentence),0,45,322
+Column,char_count,char_count >= 100 (shorter than one sentence),0,21,46
+Column,char_count,char_count >= 100 (shorter than one sentence),0,23,61
+Column,char_count,char_count >= 100 (shorter than one sentence),0,48,77
+Column,char_count,char_count >= 100 (shorter than one sentence),0,27,78
+Column,char_count,char_count >= 100 (shorter than one sentence),0,3,82
+Column,char_count,char_count >= 100 (shorter than one sentence),0,45,84
+Column,char_count,char_count >= 100 (shorter than one sentence),0,10,87
+Column,char_count,char_count >= 100 (shorter than one sentence),0,83,98
+Column,char_count,char_count >= 100 (shorter than one sentence),0,88,103
+Column,char_count,char_count >= 100 (shorter than one sentence),0,10,106
+Column,char_count,char_count >= 100 (shorter than one sentence),0,80,196
+Column,char_count,char_count >= 100 (shorter than one sentence),0,47,277
+Column,char_count,char_count >= 100 (shorter than one sentence),0,95,333
+Column,char_count,char_count >= 100 (shorter than one sentence),0,2,481
+Column,char_count,char_count >= 100 (shorter than one sentence),0,36,335
+Column,char_count,char_count >= 100 (shorter than one sentence),0,71,338
+Column,char_count,char_count >= 100 (shorter than one sentence),0,67,342
+Column,char_count,char_count >= 100 (shorter than one sentence),0,14,345
+Column,char_count,char_count >= 100 (shorter than one sentence),0,4,364
+Column,char_count,char_count >= 100 (shorter than one sentence),0,65,380
+Column,char_count,char_count >= 100 (shorter than one sentence),0,14,385
+Column,char_count,char_count >= 100 (shorter than one sentence),0,97,404
+Column,char_count,char_count >= 100 (shorter than one sentence),0,47,445
+Column,char_count,char_count >= 100 (shorter than one sentence),0,13,451
+Column,char_count,char_count >= 100 (shorter than one sentence),0,60,455
+Column,char_count,char_count >= 100 (shorter than one sentence),0,10,474
+Column,has_ligature_artefact,PDF ligature artefact (/f_ or U+FB00-FB06),0,1,327

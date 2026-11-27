@@ -1,9 +1,31 @@
-hash,duplicate_source,first_source,preview
-near-duplicate,S06-p2-008,S04-p96-002,"remove: same Habitat Penang Hill text as the 2025 guide chapter; adds nothing | st form as you immerse yourself in our 130-million-year-old rainforest. Starting at the forest floor, our Naturalists wi"
-near-duplicate,S08-p2-012,S05-p168-000,"remove: same Mari Mari Cultural Village text as the guide chapter; adds nothing | L VILLAGE Only 25 minutes from Kota Kinabalu, Mari Mari Cultural Village is a vibrant destinatinon that gives an insight"
-near-duplicate,S08-p2-004,S05-p179-000,"remove: same Sabah transport text as the guide chapter; adds nothing | ain airport is the Kota Kinabalu International Airport, which is the second largest airport in Malaysia. It is situated "
-near-duplicate,S06-p2-020,-,"remove: generic ""About Malaysia"" introduction repeated in every map guide; not state content | ical paradise boasts pristine jungles and verdant national parks that are teeming with numerous species of birds and wil"
-near-duplicate,S07-p2-001,-,"remove: generic ""About Malaysia"" introduction repeated in every map guide; not state content | e boasts pristine jungles and verdant national parks that are teeming with numerous species of birds and Malaysia’s sun-"
-near-duplicate,S08-p2-002,-,"remove: generic ""About Malaysia"" introduction repeated in every map guide; not state content | s species of birds and Malaysia’s sun-drenched islands and beaches are home to a stunning range of marine life. Its natu"
-near-duplicate,S07-p2-011,S03-p56-000,"retain-tagged: same Encore Melaka text but adds a phone number | a a bridge just opposite the Majestic Hotel. +606 282 3988 ENCORE MELAKA A showcase of Melaka’s heritage and culture, En"
-near-duplicate,S06-p2-002,S04-p95-000,"retain-tagged: same Batu Ferringhi text but adds a phone number | BATU FERRINGHI Batu Ferringhi is the most popular beach destination in Penang. With its stretch of golden sand, this bea"
+hash,duplicate_source,first_source,preview,decision
+,S06-p2-002,S04-p95-000,"BATU FERRINGHI
+Batu Ferringhi is the most popular beach destination in 
+Penang. With its stretch of golden sand, this beach is the 
+focal point of resorts, wate",removed: near-duplicate of S04-p95-000 (Penang guide chapter)
+,S06-p2-008,S04-p96-002,"st form as you immerse yourself 
+in our 130-million-year-old rainforest. Starting at the forest floor, 
+our Naturalists will take you on a journey along our Nat",removed: near-duplicate of S04-p96-002 (Penang guide chapter)
+,S06-p2-020,,"ical paradise boasts pristine jungles 
+and verdant national parks that are teeming with 
+numerous species of birds and wildlife. Malaysia’s sun-
+drenched island","kept: shared map-guide block, adds phone numbers"
+,S07-p2-001,,"e boasts pristine jungles and verdant national 
+parks that are teeming with numerous species of birds and 
+Malaysia’s sun-drenched islands and beaches are home ","kept: shared map-guide block, adds phone numbers"
+,S07-p2-011,S03-p56-000,"a a bridge just opposite the Majestic Hotel. 
+ +606 282 3988
+ENCORE MELAKA
+A showcase of Melaka’s heritage and culture, Encore Melaka 
+presents fascinating perf",removed: near-duplicate of S03-p56-000 (Melaka guide chapter)
+,S08-p2-002,S06-p2-020,"s species of birds and 
+Malaysia’s sun-drenched islands and beaches are home 
+to a stunning range of marine life. Its natural wealth is 
+complemented by magnifi",removed: near-duplicate of S06-p2-020 (shared map-guide block)
+,S08-p2-004,S05-p179-000,"ain airport is the Kota Kinabalu International Airport, 
+which is the second largest airport in Malaysia. It is situated 
+about 20 minutes from the city. Malays",removed: near-duplicate of S05-p179-000 (Sabah guide chapter)
+,S08-p2-012,S05-p168-000,"L VILLAGE
+Only 25 minutes from Kota Kinabalu, Mari Mari Cultural Village 
+is a vibrant destinatinon that gives an insight into Sabah’s 
+diverse cultural heritag",removed: near-duplicate of S05-p168-000 (Sabah guide chapter)
